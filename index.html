@@ -3,11 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Personagem RPG</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="icon" type="image/png" href="images/icon.png">
 </head>
 <body>
-    <h1>
-        Site de teste
-    </h1>
+    <div class="container">
+        <h1>🧙‍♂️ Qual personagem de RPG você seria?</h1>
+        <p>Clique no botão e descubra seu destino na aventura...</p>
+        <button onclick="sortear()">Sortear personagem</button>
+        <div class="card" id="card">
+            <img id="img">
+            <div class="title" id="nome"></div>
+            <div class="desc" id="descricao"></div>
+        </div>
+    </div>
 </body>
 </html>

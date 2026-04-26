@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'MedievalSharp';
+  background-image: linear-gradient(to bottom, #0f172a, #124089, #4f5b6e);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #cbd5e1;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+button {
+  margin-top: 20px;
+  padding: 15px 25px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  background: #f59e0b;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #fbbf24;
+}
+
+.card {
+  margin-top: 30px;
+  background: #020617;
+  border-radius: 15px;
+  padding: 15px;
+  display: none;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  color: #facc15;
+}
+
+.desc {
+  margin-top: 10px;
+  font-size: 0.95rem;
+  color: #e2e8f0;
+}
+
+/* Responsivo */
+@media (max-width: 500px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  button {
+    width: 100%;
+  }
+}
