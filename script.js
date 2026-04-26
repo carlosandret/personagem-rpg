@@ -1,12 +1,12 @@
 const personagens = [
-  {
-    nome: "⚔️ Guerreiro",
-    img: "https://images.unsplash.com/photo-1608889175123-8ee362201f81",
-    descricao: "Corajoso e forte, você enfrenta qualquer desafio de frente. Sempre pronto para proteger seus aliados."
-  },
+    {
+    nome: "🔮 Feiticeira",
+    img: "./images/feiticeira.png",
+    descricao: "Misteriosa e poderosa, você canaliza forças além da compreensão mortal. Sua magia não vem de livros — vem do sangue, da intuição e de um pacto que só você conhece."
+    },
   {
     nome: "🧙‍♂️ Mago",
-    img: "https://images.unsplash.com/photo-1579370318442-ec0e6b6c6d6f",
+    img: "./images/mago.png",
     descricao: "Inteligente e estratégico, domina o conhecimento e usa magia para controlar o campo de batalha."
   },
   {
@@ -16,12 +16,12 @@ const personagens = [
   },
   {
     nome: "🗡️ Paladino",
-    img: "https://images.unsplash.com/photo-1601758003122-53c40e686a19",
+    img: "./images/paladino.png",
     descricao: "Silencioso e esperto, resolve problemas com habilidade e estratégia, sempre um passo à frente."
   },
   {
     nome: "🔨 Bárbaro",
-    img: "https://images.unsplash.com/photo-1590608897129-79da98d15969",
+    img: "./images/barbaro.png",
     descricao: "Força bruta e coragem definem você. Entra na batalha sem medo e domina com poder."
   }
 ];
